@@ -187,10 +187,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact
 
-For questions, feedback, or support, please open an issue on GitHub or contact the maintainers directly.
+For questions, feedback, or support, please open an issue on GitHub or contact the maintainers directly - bv1459@rit.edu
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by Your Name/Team</p>
+  <p>Made with ❤️ by Bala Prasanna Gopal Volisetty</p>
 </div>
