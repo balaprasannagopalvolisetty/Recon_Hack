@@ -2,26 +2,13 @@
 
 <div align="center">
   <img src="public/images/recon-ai-logo.png" alt="ReconAI Logo" width="200"/>
-  <h3>AI-Powered Web Reconnaissance and Security Analysis</h3>
+  <h3>OLLAMA - Based Vulnerability Detection and Analysis</h3>
 </div>
 
 ## 🎬 Demo
 
 ### Demo Video
 To view the full demo video, [click here](https://youtu.be/wG8XAazgHD8)
-
-### Screenshots
-
-<div align="center">
-  <img src="public/images/screenshot-dashboard.png" alt="ReconAI Dashboard" width="80%"/>
-  <p><em>ReconAI Dashboard showing scan results</em></p>
-  
-  <img src="public/images/screenshot-scan.png" alt="ReconAI Scan Process" width="80%"/>
-  <p><em>Active scanning process with real-time progress</em></p>
-  
-  <img src="public/images/screenshot-report.png" alt="ReconAI Report" width="80%"/>
-  <p><em>Detailed security report with findings</em></p>
-</div>
 
 ## 📋 Overview
 
