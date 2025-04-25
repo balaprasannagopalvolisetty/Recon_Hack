@@ -1,7 +1,7 @@
 # ReconAI - Advanced Web Reconnaissance Tool
 
 <div align="center">
-  <img src="public/images/recon-ai-logo.png" alt="ReconAI Logo" width="200"/>
+  <img src="public/images/recon-ai-logo.png](https://raw.githubusercontent.com/balaprasannagopalvolisetty/Recon_Hack/refs/heads/main/logo.png" alt="ReconAI Logo" width="200"/>
   <h3>OLLAMA - Based Vulnerability Detection and Analysis</h3>
 </div>
 
