@@ -1,0 +1,82 @@
+version: '3'
+
+services:
+  # Frontend Next.js application
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+    networks:
+      - recon-network
+
+  # Backend FastAPI application
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - SHODAN_API_KEY=${SHODAN_API_KEY}
+      - VT_API_KEY=${VT_API_KEY}
+      - NVD_API_KEY=${NVD_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DATA_DIR=/app/data
+    volumes:
+      - backend_data:/app/data
+    depends_on:
+      - ollama
+    networks:
+      - recon-network
+
+  # Ollama LLM service
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - recon-network
+
+  # Nginx reverse proxy for handling external traffic
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
+      - ./nginx/www:/var/www/html
+      - certbot_data:/etc/letsencrypt
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - recon-network
+
+  # Certbot for SSL certificate management
+  certbot:
+    image: certbot/certbot
+    restart: unless-stopped
+    volumes:
+      - certbot_data:/etc/letsencrypt
+      - ./nginx/www:/var/www/html
+    depends_on:
+      - nginx
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+
+networks:
+  recon-network:
+    driver: bridge
+
+volumes:
+  backend_data:
+  ollama_data:
+  certbot_data:
