@@ -1,0 +1,26 @@
+2025-04-18 05:07:15,307 - recon-ai - ERROR - Error getting location: Error opening database file (data/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+2025-04-18 05:07:16,623 - recon-ai - ERROR - Error getting hosting info from Shodan: Access denied (403 Forbidden)
+2025-04-18 05:07:31,087 - recon-ai - ERROR - Error checking firewalls with Shodan: Access denied (403 Forbidden)
+2025-04-18 05:08:35,007 - recon-ai - ERROR - Error checking Shodan for vulnerabilities: Access denied (403 Forbidden)
+2025-04-18 05:11:27,449 - recon-ai - INFO - Model ALIENTELLIGENCE/predictivethreatdetection not found, attempting to pull...
+2025-04-23 01:51:49,657 - recon-ai - ERROR - Error getting location: Error opening database file (data/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+2025-04-23 01:51:56,532 - recon-ai - ERROR - Error getting hosting info from Shodan: Access denied (403 Forbidden)
+2025-04-23 01:52:54,536 - recon-ai - ERROR - Error checking Shodan for vulnerabilities: Access denied (403 Forbidden)
+2025-04-23 02:19:11,937 - recon-ai - ERROR - Error getting location: Error opening database file (data/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+2025-04-23 02:19:13,767 - recon-ai - ERROR - Error getting hosting info from Shodan: Access denied (403 Forbidden)
+2025-04-23 02:19:30,213 - recon-ai - ERROR - Error checking firewalls with Shodan: Access denied (403 Forbidden)
+2025-04-23 02:20:21,027 - recon-ai - ERROR - Error checking Shodan for vulnerabilities: Access denied (403 Forbidden)
+2025-04-23 02:20:21,027 - recon-ai - ERROR - Error checking NVD for vulnerabilities: name 'scan_result' is not defined
+2025-04-23 02:28:58,151 - recon-ai - ERROR - Error getting location: Error opening database file (data/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+2025-04-23 02:29:04,795 - recon-ai - ERROR - Error getting hosting info from Shodan: Access denied (403 Forbidden)
+2025-04-23 02:29:22,023 - recon-ai - ERROR - Error checking firewalls with Shodan: Access denied (403 Forbidden)
+2025-04-23 02:30:38,093 - recon-ai - ERROR - Error checking Shodan for vulnerabilities: Access denied (403 Forbidden)
+2025-04-23 02:30:38,093 - recon-ai - ERROR - Error checking NVD for vulnerabilities: name 'scan_result' is not defined
+2025-04-23 03:12:26,377 - recon-ai - ERROR - Error getting location: Error opening database file (data/GeoLite2-City.mmdb). Is this a valid MaxMind DB file?
+2025-04-23 03:12:28,247 - recon-ai - ERROR - Error getting hosting info from Shodan: Access denied (403 Forbidden)
+2025-04-23 03:12:45,485 - recon-ai - ERROR - Error checking firewalls with Shodan: Access denied (403 Forbidden)
+2025-04-23 03:14:01,129 - recon-ai - ERROR - Error checking Shodan for vulnerabilities: Access denied (403 Forbidden)
+2025-04-23 03:14:01,129 - recon-ai - ERROR - Error checking NVD for vulnerabilities: name 'scan_result' is not defined
+2025-04-23 03:14:26,958 - recon-ai - INFO - Attempting to download report: soundcloud_org_c9ffcd03.pdf
+2025-04-23 03:14:26,958 - recon-ai - INFO - Looking for file at path: data/reports/soundcloud_org_c9ffcd03.pdf
+2025-04-23 03:14:26,958 - recon-ai - INFO - Found report file, serving: data/reports/soundcloud_org_c9ffcd03.pdf
