@@ -7,9 +7,9 @@
 
 ## 🎬 Demo Video
 
-[![ReconAI Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/wG8XAazgHD8))
+[![ReconAI Demo](https://img.youtube.com/vi/wG8XAazgHD8/0.jpg)](https://youtu.be/wG8XAazgHD8)
 
-*Replace YOUTUBE_VIDEO_ID_HERE with your actual YouTube video ID once uploaded*
+*Note: This video is currently set to private. Please update the privacy settings to make it viewable by others.*
 
 ## 📋 Overview
 
